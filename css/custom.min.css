@@ -37,7 +37,7 @@ a,p,li{
         flex-direction: column;
         background-color: #333;
         position: absolute;
-        top: 30px; /* Adjust the top position as needed */
+        top: 40px; /* Adjust the top position as needed */
         right: 0;
         left: 0;
     }
@@ -45,7 +45,7 @@ a,p,li{
     .navbar.open ul {
         flex-direction: column;
         align-items: center;
-        margin: 0;
+        margin: 20px;
     }
 
     .navigation-toggle {
@@ -53,9 +53,6 @@ a,p,li{
         cursor: pointer;
     }
 }
-
-
-
 
 .section .container h1{
     text-transform:uppercase;
