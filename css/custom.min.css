@@ -11,18 +11,51 @@ a,p,li{
     padding:0 20px
 }
 
-.main-nav{
+.main-nav {
     font-size:0.8em;
-    padding-top:23px
+    background: #f4f4f4;
+    padding-top: 23px;
+    text-align: right;
 }
 
-.main-nav nav ul li a{
-    color:#000000
+.main-nav nav ul li a {
+    color: #a7a7a7; 
 }
 
-.main-nav nav ul li.active a{
-    color:#00000000
+.main-nav nav ul li.active a {
+    color: #4d4d4d; 
 }
+
+/* Styles for smaller screens (hamburger menu) */
+@media (max-width: 768px) {
+    .navbar {
+        display: none; /* Hide the navbar by default for smaller screens */
+    }
+
+    .navbar.open {
+        display: flex; /* Display the navbar when open class is added */
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 30px; /* Adjust the top position as needed */
+        right: 0;
+        left: 0;
+    }
+
+    .navbar.open ul {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .navigation-toggle {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+
+
 
 .section .container h1{
     text-transform:uppercase;
