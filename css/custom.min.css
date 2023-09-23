@@ -28,8 +28,18 @@ a,p,li{
 
 /* Styles for smaller screens (hamburger menu) */
 @media (max-width: 768px) {
+    .main-nav {
+        text-align: center; /* Center-align the navigation for small screens */
+    }
+
     .navbar {
         display: none; /* Hide the navbar by default for smaller screens */
+        background-color: #333;
+        position: absolute;
+        top: 60px; /* Adjust the top position as needed */
+        right: 0;
+        left: 0;
+        z-index: 1; /* Ensure the navbar is on top of other content */
     }
 
     .navbar.open {
@@ -37,7 +47,7 @@ a,p,li{
         flex-direction: column;
         background-color: #333;
         position: absolute;
-        top: 40px; /* Adjust the top position as needed */
+        top: 60px; /* Adjust the top position as needed */
         right: 0;
         left: 0;
     }
@@ -48,9 +58,27 @@ a,p,li{
         margin: 20px;
     }
 
+    .navbar ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    .navbar li {
+        margin: 0;
+        padding: 15px 0; /* Add vertical spacing between menu items */
+    }
+
+    .navbar a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.5em; /* Adjust the font size as needed */
+    }
+
     .navigation-toggle {
         display: block;
         cursor: pointer;
+        text-align: center;
+        padding: 10px 0;
     }
 }
 
