@@ -123,3 +123,43 @@ a,p,li{
     font-size:0.9375em;
     color:#8c8c8c
 }
+
+/* Footer */
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/* Add styles for the icons, such as font-awesome */
+footer i {
+    font-size: 24px;
+}
+
+/* Style the links on hover if desired */
+footer a:hover {
+    color: #f4f4f4;
+}
+
+.social-links {
+    display: flex; /* Display links horizontally */
+    align-items: center; /* Center items vertically */
+  }
+
+  .social-link {
+    text-decoration: none;
+    margin-right: 20px; /* Add spacing between links */
+  }
+
+  .icon {
+    font-size: 20px; /* Adjust icon size */
+    margin-right: 5px; /* Add spacing between icon and image */
+  }
