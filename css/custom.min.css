@@ -82,6 +82,12 @@ a,p,li{
     }
 }
 
+.section {
+    margin-bottom: 20px; /* Agrega un margen inferior entre las secciones */
+    padding-bottom: 10px; /* Agrega un relleno inferior dentro de las secciones */
+    border-bottom: 1px solid #ccc; /* Agrega un borde inferior */
+}
+
 .section .container h1{
     text-transform:uppercase;
     margin-bottom:30px;
