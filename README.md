@@ -26,7 +26,7 @@ This section outlines my technical and soft skills. It helps you understand what
 
 ## Contact Information
 If you're interested in connecting with me or learning more about my qualifications, please don't hesitate to reach out. You can contact me through:
-- [Email](mailto:ernesto.albarez@protonmail.com)
+- [Email](mailto:ernestoalbrz@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/ernesto-albarez/)
 
 ### Feedback and Collaboration
