@@ -1,0 +1,32 @@
+/* -----------------------------------
+   Scrollbar styling
+----------------------------------- */
+
+/* Firefox fallback */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-scrollbar-thumb) transparent;
+}
+
+/* WebKit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-scrollbar-thumb);
+  border-radius: 20px;
+}
+
+/* -----------------------------------
+   Decorative background text
+----------------------------------- */
+
+.bg-text-effect {
+  -webkit-text-stroke: 1px var(--color-text-stroke);
+  color: transparent;
+}

@@ -1,0 +1,33 @@
+:root {
+  /* Backgrounds */
+  --color-bg: #ffffff;
+  --color-surface: #f3f4f6;
+
+  /* Text */
+  --color-text: #1f2937;
+  --color-muted: #6b7280;
+
+  /* Brand / Primary */
+  --color-primary: #374151;
+  --color-primary-hover: #1f2937;
+
+  /* Scrollbar */
+  --color-scrollbar-thumb: #cbd5e1;
+
+  /* Effects */
+  --color-text-stroke: rgba(0, 0, 0, 0.05);
+
+  /* Radius */
+  --radius-default: 0.375rem;
+}
+
+.dark {
+  --color-bg: #0f172a;
+  --color-surface: #1e293b;
+
+  --color-text: #e2e8f0;
+  --color-muted: #94a3b8;
+
+  --color-scrollbar-thumb: #475569;
+  --color-text-stroke: rgba(255, 255, 255, 0.05);
+}
